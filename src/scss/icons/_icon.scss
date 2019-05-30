@@ -1,0 +1,54 @@
+:root {
+  --icon-xs: 16px;
+  --icon-sm: 24px;
+  --icon-md: 32px;
+  --icon-lg: 48px;
+  --icon-xl: 64px;
+}
+
+/* icon size */
+.icon--xs {
+  font-size: var(--icon-xs);
+}
+
+.icon--sm {
+  font-size: var(--icon-sm);
+}
+
+.icon--md {
+  font-size: var(--icon-md);
+}
+
+.icon--lg {
+  font-size: var(--icon-lg);
+}
+
+.icon--xl {
+  font-size: var(--icon-xl);
+}
+
+.icon {
+  display: inline-block;
+  color: var(--color-icon-primary);
+  height: 1em;
+  width: 1em;
+  line-height: 1;
+}
+
+@supports(--css: variables) {
+  .theme--dark {
+    --component-background: var(--black);
+    --color-text: var(--gray-4);
+    --color-icon-primary: #fff;
+    //..other relevant css variables
+  }
+}
+
+@supports(--css: variables) {
+  .theme--dark {
+    --component-background: var(--black);
+    --color-text: var(--gray-4);
+    --color-icon-primary: #fff;
+    //..other relevant css variables
+  }
+}
