@@ -46,6 +46,24 @@
   --gray-1: #e8e7e8;
   --white: white;
 
+  /* buttons */
+  --btn-primary-bg: var(--color-primary);
+  --btn-primary-hover: var(--color-primary-light);
+  --btn-primary-active: var(--color-primary-dark);
+  --btn-primary-label: var(--white);
+
+  --btn-secondary-bg: var(--gray-1);
+  --btn-secondary-active: var(--gray-2);
+  --btn-secondary-label: var(--gray-10);
+
+  --btn-accent-bg: var(--color-accent);
+  --btn-accent-hover: var(--color-accent-light);
+  --btn-accent-active: var(--color-accent-dark);
+  --btn-accent-label: var(--white);
+
+  --btn-disabled-bg: var(--gray-2);
+  --btn-disabled-label: var(--gray-10);
+
   /* feedback */
   --color-success: #88c459;
   --color-error: #f5414f;
